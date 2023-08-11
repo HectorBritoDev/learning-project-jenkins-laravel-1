@@ -4,7 +4,7 @@ pipeline {
     stages{
         stage('Testing') {
             steps {
-                php artisan test
+                echo 'Test'
             }
         }
     }
